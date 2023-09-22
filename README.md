@@ -1,3 +1,7 @@
 # Hola 🙋, 
-Este es un pequeño proyecto donde intento hacer un clon de la interzas de Youtube (cuando estamos visualizando un video)
+En este repositorio estare agregando diferentes documentos...
+Algunos de estos son :
+
+✅ Maquetacion Youtube (40%)
+✅ Mini proyecto de Portafolio (5%)
 

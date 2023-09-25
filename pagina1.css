@@ -89,8 +89,7 @@ h2 {
 .cesar {
   display: flex;
   height: 31rem;
-  width: 25rem;
-  margin-right: 0px;
+  width: 80%;
   margin: 3rem;
   border-radius: 0 2rem 0 2rem;
 }
@@ -100,7 +99,7 @@ h2 {
   border: thin solid #000;
   border-radius: 0 2rem 0 2rem;
   height: 31rem;
-  width: 40rem;
+  width: 60%;
   margin: 3rem;
 }
 

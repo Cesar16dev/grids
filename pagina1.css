@@ -97,18 +97,33 @@ h2 {
 .tecnologias {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: flex-start;
   border: thin solid #000;
   border-radius: 2rem;
   height: 30em;
   width: 30em;
 }
+
 .tecnologias-aprendidas {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
   align-items: center;
   border: thin solid #000;
   border-radius: 2rem;
   width: 29em;
-  height: 15em;
+  height: 30em;
+  margin: 3px auto;
+}
+
+.tecnologias-aprendidas > * {
+  width: 5em;
+  height: 10em;
+}
+
+h3 {
+  margin: 3px auto;
+  font-size: 30px;
 }

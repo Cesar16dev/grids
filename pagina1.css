@@ -4,6 +4,7 @@ body {
   font-size: 16px;
   font-family: sans-serif;
   margin: 0;
+  background-color: black;
 }
 
 body {
@@ -16,6 +17,7 @@ main {
   border: thin solid black;
   height: 200vh;
   width: 100%;
+  margin: 0px auto;
 }
 
 h1 {
@@ -40,11 +42,13 @@ h2 {
   border-bottom: thick solid #000;
   position: sticky;
   top: 0px;
+  margin: 0px auto;
+  background-color: coral;
 }
 
 .secc-contenedora {
-  width: 90%;
-  margin: 1px auto 1px auto;
+  width: 80%;
+  margin: 0px auto;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -111,8 +115,6 @@ h2 {
   grid-template-rows: repeat(2, 1fr);
   justify-items: center;
   align-items: center;
-  border: thin solid #000;
-  border-radius: 2rem;
   width: 29em;
   height: 30em;
   margin: 3px auto;

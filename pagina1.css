@@ -14,14 +14,14 @@ body {
   background-attachment: fixed;
 }
 
-main {
+.contenido {
   display: flex;
-  flex-flow: column wrap;
-  justify-content: flex-start;
-  align-content: space-evenly;
-  background-color: #5463ff;
-  height: 200vh;
-  width: 100em;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: steelblue;
+  height: 511vh;
+  width: 90vw;
   margin: 0px auto;
 }
 
@@ -32,37 +32,26 @@ h1 {
   margin: 30px auto;
 }
 
-h2 {
-  text-align: center;
-  font-family: "Yatra One";
-  font-size: 40px;
-}
-
 /****** Navbar ******/
 
 .header {
   display: flex;
-  width: 100em;
+  width: 90vw;
   height: 5rem;
-  border-bottom: thick solid #000;
-  position: sticky;
+  border-bottom: thin solid #000;
   top: 0px;
   margin: 0px auto;
-  background-color: #f96d00;
+  background-color: slateblue;
 }
 
 .secc-contenedora {
-  width: 80%;
+  width: 90%;
   margin: 0px auto;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   align-content: space-between;
-}
-
-.secc-anclas {
-  display: flex;
 }
 
 .secc-anclas > * {
@@ -70,79 +59,15 @@ h2 {
   height: 60px;
 }
 
-.secc-redes {
+.secc-enlaces {
   display: flex;
-  gap: 0.7rem;
 }
 
-.secc-redes > a > img {
-  height: 50px;
-  margin-top: 0.5rem;
-}
-
-/***** Informacion Personal ******/
-
-.info-personal {
-  background-color: #f2f2f2;
-  box-shadow: 20px 20px 0px 0px rgb(0, 0, 0, 0.8);
-  border-radius: 2em 0em;
-  border: thin solid rgb(0, 0, 0);
-  height: 40em;
-  width: 60em;
-  margin: 0em auto;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-content: center;
-}
-
-.cesar {
-  display: flex;
-  height: 30em;
-  width: auto;
-  border-radius: 2rem 0em;
-  border: medium solid #000;
-}
-
-.tecnologias {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  border: medium solid #000;
-  border-radius: 2rem 0em;
-  height: 30em;
-  width: 30em;
-}
-
-.tecnologias-aprendidas {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  justify-items: center;
-  align-items: center;
-  width: 29em;
-  height: 30em;
-  margin: 3px auto;
-}
-
-.tecnologias-aprendidas > * {
-  width: 5em;
-  height: 10em;
-}
-
-h3 {
-  margin: 3px auto;
-  font-size: 30px;
-}
-
-.info-about {
-  background-color: #f2f2f2;
-  box-shadow: 20px 20px 0px 0px rgb(0, 0, 0, 0.8);
-  border-radius: 2em 0em;
-  border: thin solid rgb(0, 0, 0);
-  height: 40em;
-  width: 60em;
-  margin: 5em auto;
-  display: flex;
+/***** Secciones  ******/
+.contenido > section {
+  margin-top: 0px;
+  height: 100vh;
+  width: 90vw;
+  text-align: center;
+  border: 1px solid saddlebrown;
 }

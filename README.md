@@ -1,6 +1,3 @@
-# Hola 🙋,
+# En este repositorio encontraremos algunos ejemplos de _Grid CSS_
 
-En este repositorio estare agregando diferentes documentos...
-Algunos de estos son :
-
-✅ Maquetacion Youtube (40%)
+# y donde tambien practicaremos este _Modulo de CSS_

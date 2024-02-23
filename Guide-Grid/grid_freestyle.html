@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+        box-sizing: border-box;
+        font-size: 16px;
+        font-family: sans-serif;
+        }
+
+        *,
+        *::after,
+        *::before {
+        box-sizing: inherit;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            margin: 0;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-rows: repeat(5,1fr);
+            grid-template-areas: 
+            "header header header header header header"
+            "section1 section2 section3 section4 section4 section4"
+            "section1 section2 section3 section4 section4 section4"
+            "section1 section2 section3 section4 section4 section4"
+            "footer footer footer footer footer footer"
+            ;
+        }
+
+        .header{
+            grid-area: header;
+            background-color: yellow;
+        }
+        .section1{
+            grid-area: section1;
+            background-color: turquoise;
+        }
+        .section2{
+            grid-area: section2;
+            background-color: turquoise;
+        }
+        .section3{
+            grid-area: section3;
+            background-color: turquoise;
+        }
+        .section4{
+            grid-area: section4;
+            background-color: tomato;
+        }
+        .footer{
+            grid-area: footer;
+            background-color: slateblue;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+    </header>
+    <section class="section1">
+    </section>
+    <section class="section2">
+    </section>
+    <section class="section3">
+    </section>
+    <section class="section4">
+    </section>
+    <footer class="footer">
+    </footer>
+</body> 
+</html>

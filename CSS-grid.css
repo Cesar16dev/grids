@@ -1,0 +1,50 @@
+:root {
+  --Skin: #f1b34c;
+  --Red: #d32015;
+  --Brown: #68180f;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.sec-1 {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  border: thin solid #000;
+  width: 720px;
+  height: 80vh;
+}
+
+.cua14,
+.cua15,
+.cua16,
+.cua30,
+.cua31,
+.cua32,
+.cua47,
+.cua48,
+.cua48,
+.cua161,
+.cua162,
+.cua177,
+.cua178,
+.cua179,
+.cua194 {
+  background-color: var(--Skin);
+}
